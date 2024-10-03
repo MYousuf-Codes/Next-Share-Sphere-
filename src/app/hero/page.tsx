@@ -47,7 +47,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold mb-4">John Doe</h3>
             <p className="text-gray-600">
-              "ShareSphere is an amazing platform! I've made so many new connections and learned a lot. Highly recommend!"
+            &quot;ShareSphere is an amazing platform! I&quot;ve made so many new connections and learned a lot. Highly recommend!&quot;
             </p>
           </div>
 
@@ -55,7 +55,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold mb-4">Jane Smith</h3>
             <p className="text-gray-600">
-              "The user experience is top-notch. The design is sleek, and the community is incredibly welcoming."
+            &quot;The user experience is top-notch. The design is sleek, and the community is incredibly welcoming.&quot;
             </p>
           </div>
 
@@ -63,7 +63,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold mb-4">Emily Johnson</h3>
             <p className="text-gray-600">
-              "I love how easy it is to navigate and connect with like-minded individuals. A must-try!"
+            &quot;I love how easy it is to navigate and connect with like-minded individuals. A must-try!&quot;
             </p>
           </div>
         </div>

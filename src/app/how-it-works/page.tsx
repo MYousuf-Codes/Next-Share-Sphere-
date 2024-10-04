@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const HowItWorks: React.FC = () => {
     return (
-        <main className="bg-gray-100 md:p-6 lg:p-8">
-            <h1 className="m-10 p-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6">How it Works</h1>
+        <main className="bg-white md:p-6 lg:p-8">
+            <h1 className="m-10 p-10 text-5xl md:text-3xl lg:text-4xl font-bold text-center mb-6">How it Works</h1>
             <section className="max-w-2xl mx-auto">
                 {[
                     {
@@ -38,9 +38,9 @@ const HowItWorks: React.FC = () => {
                         description: "Take advantage of all the benefits and resources available to you."
                     }
                 ].map((step, index) => (
-                    <div key={index} className="bg-white shadow-md rounded-lg p-4 mb-4 flex flex-col md:flex-row items-center hover:scale-105 duration-300 ease-in-out">
+                    <div key={index} className="bg-gray-100 shadow-md rounded-lg p-4 mb-4 flex flex-col md:flex-row items-center hover:scale-105 duration-300 ease-in-out">
                         <div className="md:w-1/2">
-                            <h2 className="text-lg md:text-xl font-semibold mb-3">{step.title}</h2>
+                            <h2 className="font-semibold text-2xl text-gray-700 mb-4">{step.title}</h2>
                             <p className="text-gray-700 text-xs md:text-sm">{step.description}</p>
                         </div>
                         <div className="md:w-1/2 md:pl-4">
@@ -48,8 +48,8 @@ const HowItWorks: React.FC = () => {
                                 src={step.src} 
                                 alt={step.alt} 
                                 layout="responsive" 
-                                width={100} 
-                                height={50} 
+                                width={1200} 
+                                height={700} 
                                 className="rounded-lg object-cover"
                             />
                         </div>

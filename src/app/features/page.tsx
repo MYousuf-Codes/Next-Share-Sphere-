@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const HowItWorks: React.FC = () => {
     return (
-        <main className=" bg-gray-100 md:p-6 lg:p-8">
-            <h1 className="m-10 p-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6">Features</h1>
+        <main className="bg-white py-16 md:p-6 lg:p-8">
+            <h1 className="m-10 p-10 text-5xl md:text-3xl lg:text-4xl font-bold text-center mb-6">Features</h1>
             <section className="max-w-2xl mx-auto">
                 {[
                     {
@@ -32,9 +32,9 @@ const HowItWorks: React.FC = () => {
                         description: "Engage with a community of like-minded individuals and share your experiences."
                     },
                 ].map((step, index) => (
-                    <div key={index} className="bg-white shadow-md rounded-lg p-4 mb-4 flex flex-row md:flex-row items-center hover:scale-105 duration-300 ease-in-out">
+                    <div key={index} className="bg-gray-100 shadow-md rounded-lg p-4 mb-4 flex flex-row md:flex-row items-center hover:scale-105 duration-300 ease-in-out">
                         <div className="md:w-1/2">
-                            <h2 className="text-lg md:text-xl font-semibold mb-3">{step.title}</h2>
+                            <h2 className="font-semibold text-2xl text-gray-700 mb-4">{step.title}</h2>
                             <p className="text-gray-700 text-xs md:text-sm">{step.description}</p>
                         </div>
                         <div className="md:w-1/2 md:pl-4">

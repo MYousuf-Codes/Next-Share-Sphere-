@@ -36,8 +36,8 @@ const TrustedBy = () => {
       className={`bg-gray-50 py-10 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
     >
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-2xl md:text-4xl font-bold mb-8">Trusted By Leading Companies</h2>
-        <p className="text-lg md:text-xl font-bold mb-4">700+ Happy Customers and leading worldwide!</p>
+        <h2 className="text-2xl md:text-4xl font-bold mb-4">Trusted By Leading Companies</h2>
+        <p className="font-semibold text-xl text-gray-700 mb-8">More than 2M+ Satified User and we get on an average 25 new users by every 15 minutes!</p>
 
         {/* Scrolling Logos Container */}
         <div className="relative w-full">
@@ -75,7 +75,7 @@ const TrustedBy = () => {
                   alt={`Company ${index + 10}`}
                   width={120}
                   height={50}
-                  className="inline-block transition-transform duration-300 hover:scale-105"
+                  className="inline-block transition-transform hover:scale-205 duration-400 ease-in-out"
                 />
               ))}
             </div>

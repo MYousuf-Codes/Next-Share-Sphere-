@@ -45,7 +45,7 @@ function Hero() {
         <div className="flex flex-wrap justify-center space-y-8 md:space-y-0 md:space-x-8">
           {/* Feedback Card 1 */}
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
-            <h3 className="text-2xl font-semibold mb-4">John Doe</h3>
+            <h3 className="font-semibold text-2xl text-gray-700 mb-4">John Doe</h3>
             <p className="text-gray-600">
             &quot;ShareSphere is an amazing platform! I&quot;ve made so many new connections and learned a lot. Highly recommend!&quot;
             </p>
@@ -53,7 +53,7 @@ function Hero() {
 
           {/* Feedback Card 2 */}
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
-            <h3 className="text-2xl font-semibold mb-4">Jane Smith</h3>
+            <h3 className="font-semibold text-2xl text-gray-700 mb-4">Jane Smith</h3>
             <p className="text-gray-600">
             &quot;The user experience is top-notch. The design is sleek, and the community is incredibly welcoming.&quot;
             </p>
@@ -61,7 +61,7 @@ function Hero() {
 
           {/* Feedback Card 3 */}
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
-            <h3 className="text-2xl font-semibold mb-4">Emily Johnson</h3>
+            <h3 className="font-semibold text-2xl text-gray-700 mb-4">Emily Johnson</h3>
             <p className="text-gray-600">
             &quot;I love how easy it is to navigate and connect with like-minded individuals. A must-try!&quot;
             </p>

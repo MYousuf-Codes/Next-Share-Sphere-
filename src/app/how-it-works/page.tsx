@@ -20,19 +20,19 @@ const HowItWorks: React.FC = () => {
                         description: "Add personal details and preferences to tailor your experience."
                     },
                     {
-                        src: "/coming-soon.jpg",
+                        src: "/coming-soon.pmg",
                         alt: "Step 3",
                         title: "Step 3: Explore Features",
                         description: "Discover the various features and tools available to enhance your productivity."
                     },
                     {
-                        src: "/coming-soon.jpg",
+                        src: "/coming-soon.png",
                         alt: "Step 4",
                         title: "Step 4: Connect with Others",
                         description: "Engage with a community of like-minded individuals and share your experiences."
                     },
                     {
-                        src: "/coming-soon.jpg",
+                        src: "/coming-soon.png",
                         alt: "Step 5",
                         title: "Step 5: Enjoy the Benefits",
                         description: "Take advantage of all the benefits and resources available to you."

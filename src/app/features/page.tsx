@@ -20,13 +20,13 @@ const HowItWorks: React.FC = () => {
                         description: "Share photos, videos, and updates instantly, keeping your connections in the loop with just a few taps."
                     },
                     {
-                        src: "/coming-soon.jpg",
+                        src: "/coming-soon.png",
                         alt: "Step 3",
                         title: "Step 3: Explore Features",
                         description: "Discover the various features and tools available to enhance your productivity."
                     },
                     {
-                        src: "/coming-soon.jpg",
+                        src: "/coming-soon.png",
                         alt: "Step 4",
                         title: "Step 4: Connect with Others",
                         description: "Engage with a community of like-minded individuals and share your experiences."

@@ -3,7 +3,7 @@ import TrustedBy from '@/components/TrustedBy';
 
 function Hero() {
   return (
-    <main className=" m-10 overflow-hidden flex flex-col items-center justify-between space-y-16">
+    <main className="m-10 overflow-hidden flex flex-col items-center justify-between space-y-16">
       
       {/* Hero Section */}
       <section className="flex flex-col items-center md:flex-row md:items-start justify-between m-10 space-y-15 md:space-y-0 md:space-x-10 w-full">
@@ -15,7 +15,7 @@ function Hero() {
           <p className="m-8 p-0 text-gray-700 text-center md:text-left">
             ShareSphere is a dynamic social platform that fosters connections, encourages sharing, and creates engaging experiences for users worldwide.
           </p>
-          <button className='text-xl m-10 p-2 rounded-xl border border-blue-500 hover:border-white hover:bg-blue-500 hover:text-white active:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out'>
+          <button className="text-xl m-10 p-2 rounded-xl border border-blue-500 hover:border-white hover:bg-blue-500 hover:text-white active:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out">
             Join Now
           </button>
         </div>
@@ -26,8 +26,7 @@ function Hero() {
             <Image
               src="/bg.png"
               alt="Friends Image"
-              layout="fill"
-              objectFit="cover"
+              fill
               className="absolute top-10"
             />
           </div>
@@ -47,7 +46,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="font-semibold text-2xl text-gray-700 mb-4">John Doe</h3>
             <p className="text-gray-600">
-            &quot;ShareSphere is an amazing platform! I&quot;ve made so many new connections and learned a lot. Highly recommend!&quot;
+              &quot;ShareSphere is an amazing platform! I've made so many new connections and learned a lot. Highly recommend!&quot;
             </p>
           </div>
 
@@ -55,7 +54,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="font-semibold text-2xl text-gray-700 mb-4">Jane Smith</h3>
             <p className="text-gray-600">
-            &quot;The user experience is top-notch. The design is sleek, and the community is incredibly welcoming.&quot;
+              &quot;The user experience is top-notch. The design is sleek, and the community is incredibly welcoming.&quot;
             </p>
           </div>
 
@@ -63,7 +62,7 @@ function Hero() {
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform hover:scale-105 duration-300 ease-in-out">
             <h3 className="font-semibold text-2xl text-gray-700 mb-4">Emily Johnson</h3>
             <p className="text-gray-600">
-            &quot;I love how easy it is to navigate and connect with like-minded individuals. A must-try!&quot;
+              &quot;I love how easy it is to navigate and connect with like-minded individuals. A must-try!&quot;
             </p>
           </div>
         </div>

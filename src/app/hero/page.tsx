@@ -10,6 +10,7 @@ function Hero() {
         {/* Text Section */}
         <div className="max-w-[600px]">
           <h1 className="m-8 text-5xl md:text-7xl text-black font-bold text-center md:text-left">
+            <br />
             Make <br /> New Friends
           </h1>
           <p className="m-8 p-0 text-gray-700 text-center md:text-left">
